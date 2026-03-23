@@ -1,0 +1,5 @@
+user_character = input("Type one character: ")
+print(user_character)
+user_phrase = input("Type a phrase: ")
+print(user_phrase)
+print("The number of times your chosen character appears is:",user_phrase.count(user_character))
