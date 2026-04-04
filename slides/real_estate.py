@@ -1,0 +1,5 @@
+input_name = input("What is your name? ")
+how_many_properties = int(input("How many properties did you sell? "))
+total_value = float(input("What is the total value of all of your sells? "))
+salary = (200 * how_many_properties) + 1500 + (total_value * 0.05)
+print(f"{input_name}, your salary is: R${salary:.2f}")
